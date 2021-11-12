@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<htmls lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="../css/css.css">
+	<link rel="stylesheet" href="../css/style.css">	
+	<script src="../js/js.js"></script>
+	<title>Cuestionario</title>	
+	<link rel='stylesheet' id='ajax-load-more-css-css' href="../css/micss.css" type='text/css' media='all'/>
+	<link rel="stylesheet" href="../css/bootstrap.css">
+</head>
+
+
+
+
+<body class="home page page-id-5 page-template page-template-page-home-php">
+	<div id="collections" class="collections-container-inner clearfix">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container pull-left">
+		    	<ul class="nav navbar-nav">
+		    		<li><h3><a href="../index.html">Inicio</a></h3></li>
+		    	</ul>
+		    	<ul>
+				    <img id="logo" style="float:right" src="../img/fi-logo.png	">
+				</ul>
+		    	
+		  </div>
+		</nav>
+		<div class="white-wrapper">
+			<div class="container white-section-padding-top">
+				<div class="sixteen columns">
+						<div class="sixteen columns white-section-padding-bottom-medium">
+							<h1 align="center">Cuestionario</h1>
+							<h1>Pregunta 1</h1>
+							<hr>
+							<p id="p1" ></p>
+							<script>
+								document.getElementById("p1").innerHTML = cuestionario[nums[0]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio" >
+								  <label>
+								    <input type="radio" name="opciones1" >
+								   	<p id="p101"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p101").innerHTML = cuestionario[nums[0]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones1">
+								    <p id="p102"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p102").innerHTML = cuestionario[nums[0]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones1">
+								   	<p id="p103"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p103").innerHTML = cuestionario[nums[0]][2][2];
+							      </script>
+								</div>
+								<div class="radio" >
+								  <label>
+								    <input type="radio" name="opciones1">
+								    <p id="p104"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p104").innerHTML = cuestionario[nums[0]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 2</h1>
+							<hr>
+							<p id="p2"></p>
+							<script>
+								document.getElementById("p2").innerHTML = cuestionario[nums[1]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones2">
+								   	<p id="p201"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p201").innerHTML = cuestionario[nums[1]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones2">
+								    <p id="p202"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p202").innerHTML = cuestionario[nums[1]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones2">
+								   	<p id="p203"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p203").innerHTML = cuestionario[nums[1]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones2">
+								    <p id="p204"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p204").innerHTML = cuestionario[nums[1]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 3</h1>
+							<hr>
+							<p id="p3"></p>
+							<script>
+								document.getElementById("p3").innerHTML = cuestionario[nums[2]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones3">
+								   	<p id="p301"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p301").innerHTML = cuestionario[nums[2]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones3">
+								    <p id="p302"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p302").innerHTML = cuestionario[nums[2]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones3">
+								   	<p id="p303"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p303").innerHTML = cuestionario[nums[2]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones3">
+								    <p id="p304"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p304").innerHTML = cuestionario[nums[2]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 4</h1>
+							<hr>
+							<p id="p4"></p>
+							<script>
+								document.getElementById("p4").innerHTML = cuestionario[nums[3]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones4">
+								   	<p id="p401"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p401").innerHTML = cuestionario[nums[3]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones4">
+								    <p id="p402"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p402").innerHTML = cuestionario[nums[3]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones4">
+								   	<p id="p403"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p403").innerHTML = cuestionario[nums[3]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones4">
+								    <p id="p404"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p404").innerHTML = cuestionario[nums[3]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 5</h1>
+							<hr>
+							<p id="p5"></p>
+							<script>
+								document.getElementById("p5").innerHTML = cuestionario[nums[4]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones5">
+								   	<p id="p501"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p501").innerHTML = cuestionario[nums[4]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones5">
+								    <p id="p502"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p502").innerHTML = cuestionario[nums[4]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones5">
+								   	<p id="p503"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p503").innerHTML = cuestionario[nums[4]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones5">
+								    <p id="p504"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p504").innerHTML = cuestionario[nums[4]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 6</h1>
+							<hr>
+							<p id="p6"></p>
+							<script>
+								document.getElementById("p6").innerHTML = cuestionario[nums[5]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones6">
+								   	<p id="p601"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p601").innerHTML = cuestionario[nums[5]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones6">
+								    <p id="p602"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p602").innerHTML = cuestionario[nums[5]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones6">
+								   	<p id="p603"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p603").innerHTML = cuestionario[nums[5]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones6">
+								    <p id="p604"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p604").innerHTML = cuestionario[nums[5]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 7</h1>
+							<hr>
+							<p id="p7"></p>
+							<script>
+								document.getElementById("p7").innerHTML = cuestionario[nums[6]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones7">
+								   	<p id="p701"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p701").innerHTML = cuestionario[nums[6]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones7">
+								    <p id="p702"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p702").innerHTML = cuestionario[nums[6]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones7">
+								   	<p id="p703"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p703").innerHTML = cuestionario[nums[6]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones7">
+								    <p id="p704"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p704").innerHTML = cuestionario[nums[6]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 8</h1>
+							<hr>
+							<p id="p8"></p>
+							<script>
+								document.getElementById("p8").innerHTML = cuestionario[nums[7]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones8">
+								   	<p id="p801"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p801").innerHTML = cuestionario[nums[7]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones8">
+								    <p id="p802"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p802").innerHTML = cuestionario[nums[7]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones8">
+								   	<p id="p803"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p803").innerHTML = cuestionario[nums[7]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones8">
+								    <p id="p804"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p804").innerHTML = cuestionario[nums[7]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 9</h1>
+							<hr>
+							<p id="p9"></p>
+							<script>
+								document.getElementById("p9").innerHTML = cuestionario[nums[8]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones9">
+								   	<p id="p901"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p901").innerHTML = cuestionario[nums[8]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones9">
+								    <p id="p902"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p902").innerHTML = cuestionario[nums[8]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones9">
+								   	<p id="p903"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p903").innerHTML = cuestionario[nums[8]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones9">
+								    <p id="p904"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p904").innerHTML = cuestionario[nums[8]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<h1>Pregunta 10</h1>
+							<hr>
+							<p id="p10"></p>
+							<script>
+								document.getElementById("p10").innerHTML = cuestionario[nums[9]][0];
+							</script>
+							<div class="row">
+							<div class="col-lg-3">
+							</div>	
+							  <div class="col-lg-6">
+							    <div class="radio">
+								  <label>
+								    <input type="radio" name="opciones10">
+								   	<p id="p1001"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p1001").innerHTML = cuestionario[nums[9]][2][0];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones10">
+								    <p id="p1002"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p1002").innerHTML = cuestionario[nums[9]][2][1];
+							      </script>
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones10">
+								   	<p id="p1003"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p1003").innerHTML = cuestionario[nums[9]][2][2];
+							      </script>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opciones10">
+								    <p id="p1004"></p>
+								  </label>
+								  <script>
+							        	document.getElementById("p1004").innerHTML = cuestionario[nums[9]][2][3];
+							      </script>
+								  </label>
+								</div>
+							  </div><!-- /.col-lg-6 -->
+							</div><!-- /.row -->
+							<a class="btn btn-lg btn-primary" role="button" onClick="calificar()">Enviar</a>
+							<script>
+								function calificar() {
+									var calif = 0;
+									
+									var res1=document.getElementsByName("opciones1");
+									var res2=document.getElementsByName("opciones2");
+									var res3=document.getElementsByName("opciones3");
+									var res4=document.getElementsByName("opciones4");
+									var res5=document.getElementsByName("opciones5");
+									var res6=document.getElementsByName("opciones6");
+									var res7=document.getElementsByName("opciones7");
+									var res8=document.getElementsByName("opciones8");
+									var res9=document.getElementsByName("opciones9");
+									var res10=document.getElementsByName("opciones10");
+											
+									var op1=cuestionario[nums[0]][1]-1;
+									var op2=cuestionario[nums[1]][1]-1;
+									var op3=cuestionario[nums[2]][1]-1;
+									var op4=cuestionario[nums[3]][1]-1;
+									var op5=cuestionario[nums[4]][1]-1;
+									var op6=cuestionario[nums[5]][1]-1;
+									var op7=cuestionario[nums[6]][1]-1;
+									var op8=cuestionario[nums[7]][1]-1;
+									var op9=cuestionario[nums[8]][1]-1;
+									var op10=cuestionario[nums[9]][1]-1;
+
+									
+										if(res1[op1].checked)
+											calif++;
+										if(res2[op2].checked)
+											calif++;
+										if(res3[op3].checked)
+											calif++;
+										if(res4[op4].checked)
+											calif++;
+										if(res5[op5].checked)
+											calif++;
+										if(res6[op6].checked)
+											calif++;
+										if(res7[op7].checked)
+											calif++;
+										if(res8[op8].checked)
+											calif++;
+										if(res9[op9].checked)
+											calif++;
+										if(res10[op10].checked)
+											calif++;
+
+									alert("Tu calificacion es: "+calif);
+									
+								}
+							</script>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+
+
+		<div class="sub-footer">
+		<div class="container">
+			<div class="six columns">
+				&copy; Estructuras Discretas 2021-1
+			</div>
+			<div class="six columns">
+				Tema: Recorrido de árboles
+			</div>
+		</div>
+	</div> 
+	</div>
+	 
+	 
+	
+	
+</body>
+</html>
